@@ -26,7 +26,7 @@ public class ReportBudgetStaffOfDirector implements IBudgetReport {
             }
             System.out.println("Budget from " +"(" +user.getName()+") staff " + " = " + budgetStaff );
             System.out.println("Budget from " +"(" +user.getName()+") Managers " + " = " + budgetMangers );
-        } else System.out.println("Error");
+        }
         System.out.println(" ");
 
 

@@ -31,9 +31,6 @@ public class ReportStaffOfDirector implements IStaffReport {
                 System.out.print(i+") ");
                 System.out.println( manager.getName()+ " - " + manager.getId());
             }
-        } else {
-            System.out.println("Error massage");
-
         }
         System.out.println(" ");
 

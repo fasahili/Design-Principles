@@ -33,6 +33,9 @@ public class App {
             dataBase.getDirector(1).reportBudgetStaff(director);
             dataBase.getDirector(1).reportStaff(director);
 
+            dataBase.getManager(2).reportStaff(manager);
+            dataBase.getManager(2).reportBudgetStaff(manager);
+
 
         }
 

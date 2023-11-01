@@ -20,9 +20,6 @@ public class ReportStaffOfManager implements IStaffReport {
                 System.out.print(i+") ");
                 System.out.println( staff.getName()+ " - " + staff.getId());
             }
-        } else {
-            System.out.println("Error massage");
-
         }
         System.out.println(" ");
     }

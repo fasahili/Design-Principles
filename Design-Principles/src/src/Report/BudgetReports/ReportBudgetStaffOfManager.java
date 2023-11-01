@@ -17,7 +17,7 @@ public class ReportBudgetStaffOfManager implements IBudgetReport {
                 budget += staff.getHourlyRate() * staff.getNumHoursPerMonthCompleted();
             }
             System.out.println("Budget from " +"(" +user.getName()+") staff " + " = "+ budget );
-        } else System.out.println("Error");
+        }
         System.out.println(" ");
     }
 }
