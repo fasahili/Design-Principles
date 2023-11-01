@@ -34,4 +34,7 @@ This project provides a user management system. It allows you to manage differen
 ## Notes
 1) Director, Manager and staff classes extend user (inheritance) because user is a common class.
 2) In a DataBase class there is a two function return Director and manager, To use in the app class only dataBase object.
-3) BudgetFactory, ReportFactory They generated down to avoid make a concrete object at Director, Manager if want make report.
+3) BudgetFactory, ReportFactory They generated down to avoid make a concrete object at Director, Manager if want make report and  to avoid broken dependency inversion principle.
+4) IBudgetReport, IStaffReport They generated down to avoid broken single responsibility principle.
+5) ReportStaffOfDirector, ReportStaffOfManager, ReportBudgetStaffOfDirector, ReportBudgetStaffOfManager They generated down to avoid broken single responsibility principle.
+6) (BudgetFactory, ReportFactory) and (IBudgetReport, IStaffReport) They generated and Worked and interact together to avoid broken open-closed principle.
