@@ -38,3 +38,6 @@ This project provides a user management system. It allows you to manage differen
 4) IBudgetReport, IStaffReport They generated down to avoid broken single responsibility principle.
 5) ReportStaffOfDirector, ReportStaffOfManager, ReportBudgetStaffOfDirector, ReportBudgetStaffOfManager They generated down to avoid broken single responsibility principle.
 6) (BudgetFactory, ReportFactory) and (IBudgetReport, IStaffReport) They generated and Worked and interact together to avoid broken open-closed principle.
+
+## UML
+![UML-Project-Design Principles](https://github.com/fasahili/Design-Principles/assets/144853596/bfbc2468-f295-4d59-bbb8-5de9fd07e738)
