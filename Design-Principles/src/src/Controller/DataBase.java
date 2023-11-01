@@ -15,17 +15,11 @@ class DataBase {
     }
     public  Director getDirector(int userId) {
        User user = getUserById(userId);
-        if (user instanceof Director director){
-            return director;
-        }
-        else return null;
+       return (Director) user;
     }
     public  Manager getManager(int userId) {
         User user = getUserById(userId);
-       if(user instanceof Manager manager){
-            return manager;
-       }
-        else return null;
+        return (Manager) user;
     }
 
 }

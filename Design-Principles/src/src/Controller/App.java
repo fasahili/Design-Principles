@@ -37,6 +37,7 @@ public class App {
             dataBase.getManager(2).reportBudgetStaff(manager);
 
 
+
         }
 
 }
