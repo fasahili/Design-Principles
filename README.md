@@ -30,3 +30,8 @@ This project provides a user management system. It allows you to manage differen
 #### Interface
 - `Report.Interface.IBudgetReport`: Defines the interface for generating budget reports.
 - `Report.Interface.IStaffReport`: Defines the interface for generating staff reports.
+
+## Notes
+1) Director, Manager and staff classes extend user (inheritance) because user is a common class.
+2) In a DataBase class there is a two function return Director and manager, To use in the app class only dataBase object.
+3) BudgetFactory, ReportFactory They generated down to avoid make a concrete object at Director, Manager if want make report.
