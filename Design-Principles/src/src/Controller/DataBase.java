@@ -11,8 +11,23 @@ class DataBase {
     public void addUser(User user) {
         userMap.put(user.getId(), user);
     }
-    public User getUserById(int userId) {
+
+    private User getUserById(int userId) {
         return userMap.get(userId);
+    }
+    public  Director getDirector(int userId) {
+       User user = getUserById(userId);
+        if (user instanceof Director director){
+            return director;
+        }
+        else return null;
+    }
+    public  Manager getManager(int userId) {
+        User user = getUserById(userId);
+       if(user instanceof Manager manager){
+            return manager;
+       }
+        else return null;
     }
 
 }
